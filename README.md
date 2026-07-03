@@ -38,6 +38,7 @@ M.Sc. Aerospace — Technical University of Munich
 The datasets for all four problems are available on Kaggle:  
  [**dno4pdes – Deep Learning for PDEs Dataset**](https://www.kaggle.com/datasets/yhzang32/dno4pdes)
 
+---
 
 ## Project Report
 
