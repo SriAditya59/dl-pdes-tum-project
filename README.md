@@ -25,27 +25,11 @@ My solutions for the final project of the course
 
 ---
 
-## Repository Structure
-dl-pdes-tum-project/
-├── README.md
-├── .gitignore
-├── requirements.txt
-├── data/ ← datasets (download separately)
-│ └── download_data.py (helper script)
-├── project_A/ ← inverse PINN
-│ ├── project_A_inverse_pinn.ipynb
-│ └── Results_ProjectA/
-├── project_B/ ← Deep Ritz
-│ ├── project_B_deep_ritz.ipynb
-│ └── Results_ProjectB/
-├── project_C/ ← FNO
-│ ├── project_C_fno.ipynb
-│ └── Results_ProjectC/
-├── project_D/ ← DeepONet
-│ ├── project_D_deeponet.ipynb
-│ └── Results_ProjectD/
-└── report/
-└── report.pdf ← project report (LaTeX)
+## Author
+
+**Sri Aditya Yaddanapudi**  
+M.Sc. Aerospace — Technical University of Munich  
+[GitHub](https://github.com/SriAditya59)
 
 ---
 
@@ -54,14 +38,6 @@ dl-pdes-tum-project/
 The datasets for all four problems are available on Kaggle:  
  [**dno4pdes – Deep Learning for PDEs Dataset**](https://www.kaggle.com/datasets/yhzang32/dno4pdes)
 
-**Option 1 – Manual download**  
-Click the link above, download the zip file, and extract the `.h5` files into the `data/` folder.
-
-**Option 2 – Kaggle CLI**  
-```bash
-pip install kaggle
-kaggle datasets download yhzang32/dno4pdes
-unzip dno4pdes.zip -d data/
 
 ## Quick Start
 
@@ -70,16 +46,7 @@ unzip dno4pdes.zip -d data/
    git clone https://github.com/SriAditya59/dl-pdes-tum-project.git
    cd dl-pdes-tum-project
 
-## Methods Implemented from Scratch
 
-| Method | Used in | Highlights |
-|:-------|:--------|:-----------|
-| **Physics‑Informed Neural Networks** | Problem A | Inverse problem with trigonometric regularisation, early stopping, L‑BFGS fine‑tuning |
-| **Deep Ritz Method** | Problem B | Energy minimisation with hard boundary conditions, 2D Gauss–Legendre quadrature |
-| **Fourier Neural Operator** | Problem C | Spectral convolution (`torch.fft`), four Fourier layers, learnable frequency weights |
-| **DeepONet** | Problem D | Branch‑trunk architecture, supervised operator learning for Burgers’ dynamics |
-
-All spectral layers, energy functionals, parametric fields, and operators are written in raw PyTorch — no external PINN/FNO/DeepONet libraries.
 
 ## Project Report
 
@@ -87,11 +54,7 @@ The complete write‑up with methodology, implementation details, and discussion
 
 ---
 
-## Author
 
-**Sri Aditya Yaddanapudi**  
-M.Sc. Aerospace — Technical University of Munich  
-[GitHub](https://github.com/SriAditya59)
 
 ---
 
