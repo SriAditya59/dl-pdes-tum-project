@@ -26,3 +26,23 @@ My solutions for the final project of the course
 ---
 
 ## 📂 Repository Structure
+dl-pdes-tum-project/
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── data/ ← datasets (download separately)
+│ └── download_data.py (helper script)
+├── project_A/ ← inverse PINN
+│ ├── project_A_inverse_pinn.ipynb
+│ └── Results_ProjectA/
+├── project_B/ ← Deep Ritz
+│ ├── project_B_deep_ritz.ipynb
+│ └── Results_ProjectB/
+├── project_C/ ← FNO
+│ ├── project_C_fno.ipynb
+│ └── Results_ProjectC/
+├── project_D/ ← DeepONet
+│ ├── project_D_deeponet.ipynb
+│ └── Results_ProjectD/
+└── report/
+└── report.pdf ← project report (LaTeX)
