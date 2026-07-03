@@ -40,14 +40,6 @@ The datasets for all four problems are available on Kaggle:
 
 
 ## Quick Start
-
-**Clone the repository**
-   ```bash
-   git clone https://github.com/SriAditya59/dl-pdes-tum-project.git
-   cd dl-pdes-tum-project
-
-
-
 ## Project Report
 
 The complete write‑up with methodology, implementation details, and discussion of results can be found in **[report/report.pdf](report/report.pdf)**.
