@@ -1,4 +1,4 @@
-# Data files (too large for GitHub)
+# Data files (too large)
 data/*.h5
 data/extra/*.h5
 *.mat
