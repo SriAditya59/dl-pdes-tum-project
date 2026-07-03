@@ -46,10 +46,6 @@ The complete write‑up with methodology, implementation details, and discussion
 
 ---
 
-
-
----
-
 ## License
 
 This project is shared for academic evaluation. Please reach out if you'd like to reuse any part of the code.
