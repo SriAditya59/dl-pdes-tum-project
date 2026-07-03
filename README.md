@@ -39,7 +39,6 @@ The datasets for all four problems are available on Kaggle:
  [**dno4pdes – Deep Learning for PDEs Dataset**](https://www.kaggle.com/datasets/yhzang32/dno4pdes)
 
 
-## Quick Start
 ## Project Report
 
 The complete write‑up with methodology, implementation details, and discussion of results can be found in **[report/report.pdf](report/report.pdf)**.
