@@ -1,4 +1,4 @@
-# 🧠 Deep Learning for PDEs — TUM Exam Project
+# Deep Learning for PDEs — TUM Exam Project
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1-red?logo=pytorch)](https://pytorch.org)
