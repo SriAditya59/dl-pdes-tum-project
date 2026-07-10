@@ -16,7 +16,7 @@ My solutions for the final project of the course
 
 | Problem | Method | L² Relative Error |
 |:--------|:-------|:------------------|
-| **A** – Inverse recovery of Young’s modulus | PINN + trigonometric regularisation | **u:** 0.58 %  ·  **k:** 3.35 % |
+| **A** – Inverse recovery of Young’s modulus | PINN + trigonometric regularisation | **u:** 1.94 %  ·  **k:** 8.5 % |
 | **B** – Darcy flow in heterogeneous media | Deep Ritz method (hard BC) | 2.96 % |
 | **C** – Heat conduction surrogate | Fourier Neural Operator (FNO) | 3.1 % |
 | **D** – Burgers’ traffic flow prediction | Supervised DeepONet | 5.87 % |
